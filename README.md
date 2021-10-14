@@ -1,0 +1,5 @@
+- Notebook for prototyping and check data information
+- Notebook may be eihter R or Python 
+- Install R kernel with requried packages
+- Note visulization is not for DASH or streamlit [we will use viola or bokhe]
+- data will be wirten as batch mode
