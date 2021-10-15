@@ -4,3 +4,6 @@ data/processed/
 data/raw/
 reports/
 shares/
+notebooks/.ipynb_checkpoints
+notebooks/.virtual_documents
+
