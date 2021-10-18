@@ -1,5 +1,6 @@
 - Notebook for prototyping and check data information
-- Notebook may be eihter R or Python 
+- Notebook may be either R or Python 
 - Install R kernel with requried packages
 - Note visulization is not for DASH or streamlit [we will use viola or bokhe]
-- data will be wirten as batch mode
+- data will be written as batch mode to save in DB
+- data dashboard will be apache supreset
