@@ -4,6 +4,7 @@ data/processed/
 data/raw/
 reports/
 shares/
+src/utils/.env
 .ipynb_checkpoints/
 .virtual_documents/
 notebooks/.ipynb_checkpoints
