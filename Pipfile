@@ -17,6 +17,8 @@ findspark = "*"
 pyspark = "*"
 elyra = "*"
 openpyxl = "*"
+pyarrow = "*"
+pendulum = "*"
 
 [dev-packages]
 
