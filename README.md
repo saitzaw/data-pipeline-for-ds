@@ -10,6 +10,13 @@
 - install Rstudio https://www.rstudio.com/products/rstudio/download/
 - Install IRkernel to run R script in Jupyter notebook/lab
 
+# Note for elyra
+- elyra will raise error when python version is 3.9.x with pipenv
+- tested with v3.7.12 with poetry [successful]  
+
+# python version
+- please use 3.7.12 [i.e align with Kaggle notebook]
+
 # Dependencies
 - add in the requirements.txt 
 - or pipenv automatically install the required packages
