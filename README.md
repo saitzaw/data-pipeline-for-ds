@@ -25,11 +25,17 @@ docker-compose down
 - Login user : airflow
 - Login pass : airflow
 
-## Bricks 
+## Bricks Scripts
 - Data cleaning process 
 - Modeling 
 - Descriptive stats 
 - A/B testing with inferential stats
+
+### data sources 
+- Postgresql 
+- feather file 
+- csv file 
+- excle file
 
 Caution : remove the airflow user and password section in docker-compose.yaml 
 Note: this is not a production Docker image
