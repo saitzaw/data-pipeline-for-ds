@@ -1,4 +1,5 @@
 import os
+import pathlib
 from dotenv import load_dotenv
 from os.path import join, dirname
 dotenv_path = join(dirname(__file__), '.env')
@@ -24,4 +25,12 @@ class FilePath:
     list the file path use in this application 
     """
     def __init__(self):
-        self.path = 
+        self.pfolder_path = pathlib.Path(__file__).parent.resolve()
+        self.data_file_path = 'data'
+        self.include_file_path = 'includes'
+
+    def data_files(self):
+        return os.path.join( self.pfolder_path, self.pfolder_path)
+
+    def src_files(self):
+        return os.path.join( self.pfolder_path, self.include_file_path)
