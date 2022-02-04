@@ -37,6 +37,9 @@ docker-compose down
 - csv file 
 - excle file
 
-Caution : remove the airflow user and password section in docker-compose.yaml 
-Note: this is not a production Docker image
+# Caution  
+remove the airflow user and password section in docker-compose.yaml when deploy in production 
+
+# Note
+ this is not a production Docker image
 
