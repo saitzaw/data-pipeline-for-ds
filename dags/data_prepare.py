@@ -2,7 +2,6 @@ from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from datetime import datetime
 
-from includes.data_prepare.DBconnection import pg_conn
 
 START_DATE = datetime(2022,2,1)
 SCHEDULE_INTERVAL = '30 3 5 * *'
