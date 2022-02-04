@@ -16,7 +16,3 @@ with DAG(
     default_args = DEFAULT_ARGS,
     schedule_interval = SCHEDULE_INTERVAL
 ) as dag:
-    DB_conn = PythonOperator(
-        'task_id' = 'db_conn',
-        python_callable = pg_conn
-    )
