@@ -7,13 +7,10 @@
 
 ## Create the AIRFLOW UID and change permission 
 - run the airflow_env.sh
-- change the log file permission [it already done when bash is run]
 
-## Note change the Owner to add or remove the codes 
-- sudo chown $USER:root dags/
-- sudo chown $USER:root data/
-- sudo chown $USER:root includes/
-- sudo chown $USER:root plugins/
+## Note change the logs file permssion
+- change the log file permission [it already done when bash is run]
+- sudo chmod -R 775 logs/ 
 
 ## UP the containers 
 docker-compose up -d
@@ -26,10 +23,10 @@ docker-compose down
 - Login pass : airflow
 
 ## Bricks Scripts
-- Data cleaning process 
-- Modeling 
-- Descriptive stats 
-- A/B testing with inferential stats
+- Data cleaning process, script and SQL 
+- Modeling, script  
+- Descriptive stats, RUN the jupyter notebook using voila 
+- A/B testing with inferential stats, jupyter notebook using voila
 
 ### data sources 
 - Postgresql 
@@ -41,5 +38,5 @@ docker-compose down
 remove the airflow user and password section in docker-compose.yaml when deploy in production 
 
 # Note
- this is not a production Docker image
+ this is not a production Docker image, it is not acceptable to use in prodution all the screte must be save in .env or exprot from the cli
 
