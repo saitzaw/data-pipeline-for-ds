@@ -12,4 +12,3 @@ COPY requirements.txt .
 
 USER airflow
 RUN pip install -r requirements.txt
-COPY configs.py .
