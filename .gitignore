@@ -15,3 +15,6 @@ notebooks/probability/discrete/.ipynb_checkpoints
 notebooks/probability/discrete/.virtual_documents
 notebooks/probability/continuous/.ipynb_checkpoints
 notebooks/probability/continuous/.virtual_documents
+.env
+dags/
+logs/
