@@ -163,7 +163,7 @@ services:
   jupyter:
     image: jupyter/datascience-notebook
     volumes:
-      - ./includes:/opt/airflow/includes
+      - ./includes:/home/jovyan/includes
     command: bash -cx "jupyter notebook --ip 0.0.0.0 --NotebookApp.token='airflow' --no-browser"
     ports:
       - 8888:8888
