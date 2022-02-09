@@ -1,6 +1,6 @@
 logs/
-data/
 __pycache__/
 dags/__pycache__/
 .env
 .docker_env
+.ipynb_checkpoints
