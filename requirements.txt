@@ -188,7 +188,7 @@ toml==0.10.2
 tornado==6.1
 tqdm==4.61.1
 traitlets==5.0.5
-ujson==4.1.0
+ujson==5.2.0
 uritemplate==3.0.1
 urllib3==1.26.6
 watchdog==2.1.5
