@@ -63,7 +63,7 @@ httplib2==0.19.1
 idna==2.10
 init==0.1.0
 ipykernel==6.0.1
-ipython==7.25.0
+ipython==8.10.0
 ipython-genutils==0.2.0
 ipywidgets==7.6.3
 isort==5.9.3
